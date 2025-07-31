@@ -171,9 +171,9 @@ const RecentAdds = (): JSX.Element => {
               fontStyle: "italic",
             }}
           >
-            "ForeverLinkx turned my grandmother's vintage stones into the most
-            beautiful modern ring. The consultation process was so thoughtful
-            and collaborative."
+            &rdquo;ForeverLinkx turned my grandmother&apos;s vintage stones into
+            the most beautiful modern ring. The consultation process was so
+            thoughtful and collaborative.&rdquo;
           </Text>
           <View style={{ flexDirection: "row", marginTop: 10 }}>
             <View

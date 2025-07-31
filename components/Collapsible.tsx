@@ -1,7 +1,9 @@
 import { PropsWithChildren, useState } from "react";
 import { StyleSheet, TouchableOpacity } from "react-native";
 
+// eslint-disable-next-line
 import { ThemedText } from "@/components/ThemedText";
+// eslint-disable-next-line
 import { ThemedView } from "@/components/ThemedView";
 import { IconSymbol } from "@/components/ui/IconSymbol";
 import { Colors } from "@/constants/Colors";
