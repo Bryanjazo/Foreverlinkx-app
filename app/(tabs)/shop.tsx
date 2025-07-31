@@ -1,9 +1,10 @@
-import { Text } from "react-native"
+import { View } from "react-native";
+import ShopHome from "@/components/Shop/ShopHome";
 
-export default function Shop(){
+export default function Shop() {
   return (
-    <Text>
-   Home Page
-    </Text>
+    <View>
+      <ShopHome />
+    </View>
   );
 }

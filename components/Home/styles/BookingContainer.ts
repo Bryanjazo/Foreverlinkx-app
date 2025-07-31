@@ -2,20 +2,16 @@ import { StyleSheet } from "react-native";
 
 export const bookingContainerStyles = StyleSheet.create({
   sectionContainer: {
-    flex: 1,
     width: "100%",
-    paddingHorizontal: 40,
-    paddingTop: 20,
+    paddingHorizontal: 5,
+    paddingBottom: 20,
   },
   // Adjusted to fit below the profile section
   bookingContainer: {
-    top: -30,
-    flex: 1,
     width: "100%",
     maxHeight: "38%", // Adjusted to fit below the profile section
   },
   bookingCardContainer: {
-    flex: 1,
     alignItems: "center",
 
     backgroundColor: "#f5f1ed",
@@ -66,8 +62,8 @@ export const bookingContainerStyles = StyleSheet.create({
     alignItems: "center",
   },
   bookingTextContainer: {
-    flex: 1,
     alignItems: "center",
     paddingHorizontal: 20,
+    marginBottom: 15,
   },
 });

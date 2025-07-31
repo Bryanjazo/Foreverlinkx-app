@@ -1,5 +1,10 @@
-import { Text } from "react-native";
+import { Text, View } from "react-native";
+import BookHome from "@/components/Book/BookHome";
 
 export default function Book() {
-  return <Text>Book</Text>;
+  return (
+    <View>
+      <BookHome />
+    </View>
+  );
 }
