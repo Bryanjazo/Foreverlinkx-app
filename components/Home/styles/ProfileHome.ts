@@ -2,15 +2,17 @@ import { StyleSheet } from "react-native";
 
 export const profileHomeStyles = StyleSheet.create({
   profileHomeContainer: {
-    top: -5,
     backgroundColor: "white",
     height: "100%",
   },
+  homeInfoContainer: {
+    paddingHorizontal: 40,
+  },
 
   profileHomeTopContainer: {
-    flex: 1,
     justifyContent: "center",
-    maxHeight: "25%",
+    height: 120, // Adjusted to fit the profile section
+    maxHeight: "100%",
   },
   profileText: {
     fontSize: 24,
@@ -22,13 +24,9 @@ export const profileHomeStyles = StyleSheet.create({
     bottom: 0,
     left: 0,
     right: 0,
-    height: 190, // fade height
+    height: 120, // fade height
   },
-  welomeContainer: {
-    top: 0,
-    left: 20,
-    right: 0,
-  },
+  welcomeContainer: { paddingHorizontal: 40, marginTop: 40 },
   welcomeHeader: {
     fontSize: 16,
     color: "black",
@@ -43,8 +41,7 @@ export const profileHomeStyles = StyleSheet.create({
   },
   profileIconContainer: {
     position: "absolute",
-    top: 80,
-    right: 25,
+    right: 40,
     width: 30,
     height: 30,
     borderRadius: 25,
