@@ -5,7 +5,7 @@ import { BookHomeStyles } from "./styles/BookHome";
 import { LinearGradient } from "expo-linear-gradient";
 import BookCard from "./BookCards/BookCard";
 import BookExpectation from "./BookExpectation";
-import Calendar from "./Calendar";
+// import Calendar from "./Calendar";
 import Locations from "./Locations";
 
 function BookHome(): JSX.Element {

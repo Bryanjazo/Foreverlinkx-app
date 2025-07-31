@@ -1,6 +1,5 @@
 import React, { JSX } from "react";
-import { View, Text, ScrollView } from "react-native";
-import { TouchableOpacity } from "react-native";
+import { Text, ScrollView, TouchableOpacity } from "react-native";
 function FilterButtons({
   buttons,
   setAppliedFilters,

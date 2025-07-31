@@ -1,5 +1,5 @@
 import { JSX } from "react";
-import { View, Text, FlatList, ScrollView } from "react-native";
+import { View, Text } from "react-native";
 import { bookingExpectation } from "./styles/BookExpectation";
 import { IconSymbol } from "../ui/IconSymbol";
 import { LinearGradient } from "expo-linear-gradient";

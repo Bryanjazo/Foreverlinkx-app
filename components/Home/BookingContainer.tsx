@@ -1,8 +1,7 @@
-import { View, Text } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import { JSX } from "react";
 import { bookingContainerStyles } from "./styles/BookingContainer";
 import { IconSymbol } from "../ui/IconSymbol";
-import { TouchableOpacity } from "react-native";
 export default function BookingContainer(): JSX.Element {
   return (
     <View style={bookingContainerStyles.sectionContainer}>
